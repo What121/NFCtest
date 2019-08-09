@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LightTest</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="bln_open">Bln open</string>
+    <string name="bln_close">Bln close</string>
+</resources>
