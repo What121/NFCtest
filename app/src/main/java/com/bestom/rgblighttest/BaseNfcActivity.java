@@ -34,6 +34,7 @@ public class BaseNfcActivity extends AppCompatActivity {
             if (!mNfcAdapter.isEnabled()) {
                 Intent setNfc = new Intent(Settings.ACTION_NFC_SETTINGS);
                 startActivity(setNfc);
+                finish();
             } else {
 //                mPendingIntent = PendingIntent.getActivity(this, 0,
 //                        new Intent(this, ReadTextActivity.class), 0);
